@@ -3,9 +3,9 @@
     <thead>
       <tr>
         <th>N°</th>
-        <th>Title</th>
+        <th>Titre</th>
         <th>Description</th>
-        <th>Operations</th>
+        <th>Actions</th>
       </tr>
     </thead>
     <tbody>
@@ -19,17 +19,17 @@
               <a
                 class="btn btn-success"
                 href="/tasks/{{_id}}/toggleDone"
-              >Done</a>
+              >Fait</a>
             {{else}}
               <a class="btn btn-dark" href="/tasks/{{_id}}/toggleDone">
-                Undone
+                A faire 
               </a>
             {{/if}}
             <a href="/tasks/{{_id}}/delete" class="btn btn-danger">
-              Delete
+              Supprimer
             </a>
             <a href="/tasks/{{_id}}/edit" class="btn btn-info">
-              Edit
+              Modifier
             </a>
           </td>
         </tr>
@@ -39,7 +39,7 @@
 {{else}}
   <div class="h-100 d-flex align-items-center justify-content-center">
     <div class="text-center text-white">
-      <h1>No tasks</h1>
+      <h1>Aucune Tache</h1>
       <img src="/icons/empty.svg" class="w-75" />
     </div>
 

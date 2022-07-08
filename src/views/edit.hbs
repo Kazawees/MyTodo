@@ -4,7 +4,7 @@
     <div class="col-md-5 offset-md-3">
       <div class="card">
         <div class="card-body">
-          <h1>Update Task</h1>
+          <h1>Modifier tache</h1>
 
           <form action="/tasks/{{task._id}}/edit" method="post">
             <div class="mb-3">
@@ -12,7 +12,7 @@
                 class="form-control"
                 type="text"
                 name="title"
-                placeholder="Title"
+                placeholder="Titre"
                 value="{{task.title}}"
               />
             </div>
@@ -21,10 +21,10 @@
                 class="form-control"
                 name="description"
                 rows="3"
-                placeholder="Add a Description"
+                placeholder="Ajouter une Description"
               >{{task.description}}</textarea>
             </div>
-            <button class="btn btn-primary" type="submit">Update</button>
+            <button class="btn btn-primary" type="submit">Sauvegarder</button>
           </form>
         </div>
       </div>

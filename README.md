@@ -1,5 +1,5 @@
 # MyTodo
 use 
-npm i \n
-npm run build \n
-npm start
+npm i   
+npm run build       
+npm start    
